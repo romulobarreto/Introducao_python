@@ -1,3 +1,5 @@
+# Receba um número e mostre a tabuada completa dele usando o laço for.
+
 while True:
     try:
         number = int(input("Digite um número inteiro: \n"))
