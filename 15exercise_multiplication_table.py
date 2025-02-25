@@ -5,5 +5,5 @@ table = 1
 
 while table < 11:
     multiplication = number * table
-    print(f'{number}x{table}= {multiplication}')
+    print(f'{number}x{table} = {multiplication}')
     table += 1
