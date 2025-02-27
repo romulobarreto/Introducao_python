@@ -8,6 +8,8 @@ Em Python, usamos raise para lançar exceções manualmente e assert para criar 
 # O comando raise nos permite forçar um erro intencionalmente, interrompendo a execução do programa e exibindo uma mensagem personalizada.
 
 # 🔹 Sintaxe básica do raise
+class TipoDeErro(Exception):
+    pass
 raise TipoDeErro("Mensagem de erro personalizada")
 '''
 	•	TipoDeErro: Deve ser uma classe de exceção válida, como ValueError, TypeError, KeyError, etc.
